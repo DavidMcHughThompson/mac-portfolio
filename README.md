@@ -10,3 +10,4 @@ To Do:
 - Pick a good color palette and apply it consistently across the website
 - Format the links so they are side by side instead of on top of each other
 - Add a search bar
+- See if you can add a bar/header going across the top
