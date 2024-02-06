@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <!--This is the home page.  To Do: (x)Add Photo, (x) Add header, (X) Add background color, (x) add paragraph text for mission statement/goal, (x) add p text for a quote to define me, figure out how to center and properly space all the text and photos, add link to other pages, add search bar-->
+  <!--This is the home page.  To Do: (x)Add Photo, (x) Add header, (X) Add background color, (x) add paragraph text for mission statement/goal, (x) add p text for a quote to define me, figure out how to center and properly space all the text and photos, add link to other pages, add search bar.  MAKE IT SO THAT THE STUFF ISN'T SITTING ON TOP OF EACH OTHER-->
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,11 +8,13 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="homeHeaderAndIntro">
+    <div class="homeHeaderAndIntro"> <!--practice moving these side by side-->
+        <p><a href="about.html" >About Me</a></p>
+        <p><a href="portfolio.html">Portfolio</a></p>
       <h1>David McHugh Thompson's Portfolio and Personal Page</h1>
     </div>
-    <div class="homePicture">
-        <img src="sunsetMac.jpg" alt="me in the sun" /> <!--maybe crop and replace-->
+    <div>
+        <img src="macSunsetcropped.jpg" alt="me in the sun" class="homePicture"/> <!--maybe crop and replace, learn how to integrate image with text-->
     </div>
       <p>
         "Hey, if you're reading this, then you're on my website, and if you keep
@@ -22,9 +24,9 @@
         buttons)
       </p>
     </div>
-    <div class="homeMissionStatement">
+    <div class="homeMissionStatement"> <!--format these nicely, change the color to be consistent-->
       <h2>Mission Statement</h2>
-      <p>"Leave things better than you found them."</p>
+      <p>"Leave things better than you found them."</p> 
     </div>
     <div class="homeDefiningTraits">
       <h3>Something Which Defines Me</h3>
