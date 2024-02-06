@@ -17,8 +17,10 @@ body {
   height: 300px;
 }
 .macBike {
+  float: right;
   width: 300px;
 }
+
 .portfolioItemOne {
   padding: 15px;
 }
