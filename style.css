@@ -1,10 +1,37 @@
 body {
+  display: grid;
+  grid-template-columns: 20% 20% 60%;
+  grid-template-rows: 20px 15% 20% 10% 30%;
   color: black;
   background-color: #628395;
 }
-
+.successfulSubmissionHeader {
+  grid-area: 2/1/4/3;
+  /* Figure out how to move this to the right eventually, but for now, it suffices */
+}
+.homeButton {
+  /* grid-area: 3/1/4/1; */
+}
+.portfolioHeaderLinks {
+  grid-area: 1/1/2/6;
+}
+.topLinks {
+  grid-area: 1/1/1/2;
+}
+/* not sure why this one is acting up compared to all the rest */
+.portfolioHeader {
+  grid-row-start: 2;
+  grid-column-start: 1;
+  grid-row-end: 2;
+  grid-column-end: 2;
+  padding-left: 15px;
+}
 .homeDefiningTraits {
   color: orange;
+}
+.contactHeading {
+  grid-area: 2/1/3/2;
+  /* why does this break the inline styling of the links? */
 }
 .homeHeaderAndIntro {
   margin-left: 10px;
@@ -22,19 +49,26 @@ body {
 }
 
 .portfolioItemOne {
+  /* grid-area: 2/2/3/3; */
   padding: 15px;
+  padding-top: 50px;
+  grid-row-start: 3;
+  grid-column-start: 1;
+  grid-row-end: 3;
+  grid-column-end: 3;
 }
 .zoo {
-  width: 100%;
-  height: 400px;
-  border: 20px;
-  padding: 50px;
+  grid-area: 3 /3/3/3;
+  height: 200px;
+  padding: 30px;
 }
 .groceries {
-  padding: 10px;
+  padding: 15px;
+  grid-area: 5/1/5/2;
 }
-.groceryList {
-  width: 500px;
-  height: 323px;
+.groceryListIMG {
+  width: 400px;
+  grid-area: 5/2/5/4;
+  height: 300px;
   padding: 50px;
 }
