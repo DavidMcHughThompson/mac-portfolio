@@ -5,9 +5,18 @@ body {
   color: black;
   background-color: #628395;
 }
-
+.successfulSubmissionHeader {
+  grid-area: 2/1/4/3;
+  /* Figure out how to move this to the right eventually, but for now, it suffices */
+}
+.homeButton {
+  /* grid-area: 3/1/4/1; */
+}
 .portfolioHeaderLinks {
   grid-area: 1/1/2/6;
+}
+.topLinks {
+  grid-area: 1/1/1/2;
 }
 /* not sure why this one is acting up compared to all the rest */
 .portfolioHeader {
@@ -19,6 +28,10 @@ body {
 }
 .homeDefiningTraits {
   color: orange;
+}
+.contactHeading {
+  grid-area: 2/1/3/2;
+  /* why does this break the inline styling of the links? */
 }
 .homeHeaderAndIntro {
   margin-left: 10px;
@@ -45,7 +58,7 @@ body {
   grid-column-end: 3;
 }
 .zoo {
-  grid-area: 3/3/3/3;
+  grid-area: 3 /3/3/3;
   height: 200px;
   padding: 30px;
 }
