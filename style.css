@@ -53,6 +53,9 @@ body {
 .homePageBlurb {
   grid-area: 2/2/0/3;
 }
+a:hover {
+  background-color: yellow;
+}
 .homePicture {
   width: 500px;
   height: 300px;
